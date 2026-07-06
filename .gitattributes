@@ -1,0 +1,3 @@
+# Exclude vendored C libraries from GitHub language statistics
+app/src/main/cpp/include/** linguist-vendored
+app/src/main/cpp/prebuilt/** linguist-vendored

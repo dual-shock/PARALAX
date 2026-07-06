@@ -1,0 +1,12 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+#
+# Location of the SDK. This is only used by Gradle.
+# For customization when using a Version Control System, please read the
+# header note.
+#Fri Mar 20 00:08:38 CET 2026
+sdk.dir=C\:{DIR}\\Android\\Sdk
+
+FROST_USERNAME=your-frost-client-id
+FROST_PASSWORD=your-frost-client-secret
+MAPBOX_ACCESS_TOKEN=pk.your-mapbox-token

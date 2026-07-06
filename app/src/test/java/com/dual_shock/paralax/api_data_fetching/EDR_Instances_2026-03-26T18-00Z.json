@@ -1,0 +1,4462 @@
+{
+    "links": [
+        {
+            "href": "https://interpol.met.no/collections/meps-det-vertical/instances",
+            "rel": "self",
+            "type": "application/json",
+            "title": "meps-det-vertical"
+        }
+    ],
+    "instances": [
+        {
+            "id": "2026-03-23T18:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-23T18:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-23T18:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-23T18:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-23T18:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-23T18:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-23T06:00:00Z",
+                            "2026-03-26T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-23T18:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-23T21:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-23T21:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-23T21:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-23T21:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-23T21:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-23T21:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-23T09:00:00Z",
+                            "2026-03-26T04:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-23T21:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T00:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T00:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T00:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T00:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T00:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T00:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T12:00:00Z",
+                            "2026-03-26T07:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T00:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T03:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T03:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T03:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T03:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T03:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T03:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T03:00:00Z",
+                            "2026-03-26T10:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T03:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T06:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T06:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T06:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T06:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T06:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T06:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T06:00:00Z",
+                            "2026-03-27T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T06:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T09:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T09:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T09:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T09:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T09:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T09:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T09:00:00Z",
+                            "2026-03-27T04:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T09:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T12:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T12:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T12:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T12:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T12:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T12:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T12:00:00Z",
+                            "2026-03-27T07:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T12:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T15:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T15:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T15:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T15:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T15:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T15:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T03:00:00Z",
+                            "2026-03-27T10:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T15:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T18:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T18:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T18:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T18:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T18:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T18:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T06:00:00Z",
+                            "2026-03-27T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T18:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-24T21:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-24T21:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-24T21:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T21:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-24T21:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-24T21:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-24T09:00:00Z",
+                            "2026-03-27T04:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-24T21:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T00:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T00:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T00:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T00:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T00:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T00:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T12:00:00Z",
+                            "2026-03-27T07:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T00:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T03:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T03:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T03:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T03:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T03:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T03:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T03:00:00Z",
+                            "2026-03-27T10:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T03:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T06:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T06:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T06:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T06:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T06:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T06:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T06:00:00Z",
+                            "2026-03-28T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T06:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T09:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T09:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T09:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T09:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T09:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T09:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T09:00:00Z",
+                            "2026-03-28T04:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T09:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T12:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T12:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T12:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T12:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T12:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T12:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T12:00:00Z",
+                            "2026-03-28T07:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T12:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T15:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T15:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T15:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T15:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T15:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T15:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T03:00:00Z",
+                            "2026-03-28T10:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T15:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T18:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T18:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T18:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T18:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T18:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T18:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T06:00:00Z",
+                            "2026-03-28T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T18:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-25T21:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-25T21:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-25T21:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T21:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-25T21:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-25T21:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-25T09:00:00Z",
+                            "2026-03-28T04:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-25T21:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T00:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T00:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T00:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T00:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T00:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T00:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T12:00:00Z",
+                            "2026-03-28T07:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T00:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T03:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T03:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T03:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T03:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T03:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T03:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T03:00:00Z",
+                            "2026-03-28T10:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T03:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T06:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T06:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T06:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T06:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T06:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T06:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T06:00:00Z",
+                            "2026-03-29T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T06:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T09:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T09:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T09:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T09:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T09:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T09:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T09:00:00Z",
+                            "2026-03-29T04:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T09:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T12:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T12:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T12:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T12:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T12:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T12:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T12:00:00Z",
+                            "2026-03-29T07:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T12:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T15:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T15:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T15:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T15:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T15:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T15:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T03:00:00Z",
+                            "2026-03-29T10:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T15:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2026-03-26T18:00Z",
+            "title": "meps-det-vertical model timeseries for runtime 2026-03-26T18:00Z",
+            "description": "Specific model data access for meps-det-vertical at runtime 2026-03-26T18:00Z",
+            "links": [
+                {
+                    "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T18:00Z",
+                    "rel": "data",
+                    "type": "collection",
+                    "title": "meps-det-vertical-2026-03-26T18:00Z"
+                }
+            ],
+            "crs": [
+                "CRS84"
+            ],
+            "output_formats": [
+                "GeoJSON"
+            ],
+            "data_queries": {
+                "locations": {
+                    "link": {
+                        "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-26T18:00Z/locations",
+                        "hreflang": "en",
+                        "rel": "data",
+                        "variables": {
+                            "title": "Locations query",
+                            "description": "Locations query with known location Names i.e /locations/Oslo",
+                            "query_type": "locations",
+                            "output_formats": [
+                                "CoverageJSON"
+                            ],
+                            "default_output_format": "CoverageJSON",
+                            "crs_details": [
+                                {
+                                    "crs": "CRS84",
+                                    "wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -60,
+                            40,
+                            60,
+                            89.9
+                        ]
+                    ],
+                    "crs": "CRS84"
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2026-03-26T06:00:00Z",
+                            "2026-03-29T01:00:00Z"
+                        ]
+                    ],
+                    "values": [
+                        "R67/2026-03-26T18:00:00Z/PT1H"
+                    ],
+                    "trs": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"
+                },
+                "vertical": {
+                    "interval": [
+                        [
+                            "1",
+                            "65"
+                        ]
+                    ],
+                    "values": [
+                        "R65/1/1"
+                    ],
+                    "vrs": "VERT_CS['',UNIT[''],AXIS['up'],]"
+                }
+            },
+            "parameter_names": {
+                "air_pressure_ml": {
+                    "type": "Parameter",
+                    "id": "air_pressure_ml",
+                    "description": "Air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_pressure_ml",
+                        "label": "Air pressure"
+                    }
+                },
+                "air_temperature_ml": {
+                    "type": "Parameter",
+                    "id": "air_temperature_ml",
+                    "description": "Air temperature model levels",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "air_temperature_ml",
+                        "label": "Air temperature model levels"
+                    }
+                },
+                "dewpoint_calculated_ml": {
+                    "type": "Parameter",
+                    "id": "dewpoint_calculated_ml",
+                    "description": "Dew point temperature",
+                    "unit": {
+                        "label": "celsius",
+                        "symbol": {
+                            "value": "˚C",
+                            "type": "http://codes.wmo.int/common/unit/_degC"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "dewpoint_calculated_ml",
+                        "label": "Dew point temperature"
+                    }
+                },
+                "surface_air_pressure": {
+                    "type": "Parameter",
+                    "id": "surface_air_pressure",
+                    "description": "Surface air pressure",
+                    "unit": {
+                        "label": "hPa",
+                        "symbol": {
+                            "value": "hPa",
+                            "type": "http://codes.wmo.int/common/unit/_hPa"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "surface_air_pressure",
+                        "label": "Surface air pressure"
+                    }
+                },
+                "wind_direction_ml": {
+                    "type": "Parameter",
+                    "id": "wind_direction_ml",
+                    "description": "Wind direction",
+                    "unit": {
+                        "label": "degree",
+                        "symbol": {
+                            "value": "deg",
+                            "type": "https://codes.wmo.int/common/unit/_degree_(angle)"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_direction_ml",
+                        "label": "Wind direction"
+                    }
+                },
+                "wind_speed_ml": {
+                    "type": "Parameter",
+                    "id": "wind_speed_ml",
+                    "description": "Wind Speed",
+                    "unit": {
+                        "label": "ms",
+                        "symbol": {
+                            "value": "m s^-1",
+                            "type": "https://codes.wmo.int/common/unit/_m_s-1"
+                        }
+                    },
+                    "observedProperty": {
+                        "id": "wind_speed_ml",
+                        "label": "Wind Speed"
+                    }
+                }
+            }
+        }
+    ]
+}

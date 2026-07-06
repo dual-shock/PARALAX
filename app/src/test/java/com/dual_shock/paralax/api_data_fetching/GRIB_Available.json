@@ -1,0 +1,83 @@
+[
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-26T15:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-26T15%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-27T03:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-27T03%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-27T06:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-27T06%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-27T09:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-27T09%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-27T12:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-27T12%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-27T15:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-27T15%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-26T18:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-26T18%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-26T21:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-26T21%3A00%3A00Z"
+    },
+    {
+        "endpoint": "grib2",
+        "params": {
+            "area": "southern_norway",
+            "time": "2026-03-27T00:00:00Z"
+        },
+        "updated": "2026-03-26T20:32:06Z",
+        "uri": "https://in2000.api.met.no/weatherapi/isobaricgrib/1.0/grib2?area=southern_norway&time=2026-03-27T00%3A00%3A00Z"
+    }
+]

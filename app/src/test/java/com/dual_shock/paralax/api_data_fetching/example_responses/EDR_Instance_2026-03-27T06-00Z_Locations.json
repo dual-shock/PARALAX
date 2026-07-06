@@ -1,0 +1,5021 @@
+{
+    "name": "locations",
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "d15fa1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.9358,
+                    54.3256
+                ]
+            },
+            "properties": {
+                "name": "D15-FA-1",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/d15fa1",
+                "altitude": "42.7",
+                "SYNOP Station Identifier": "06201"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "borsselealfabsa",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0567,
+                    51.7
+                ]
+            },
+            "properties": {
+                "name": "BORSSELE ALFA (BSA)",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/borsselealfabsa",
+                "altitude": "43.42",
+                "SYNOP Station Identifier": "06317"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lindesnesfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0477,
+                    57.9825
+                ]
+            },
+            "properties": {
+                "name": "Lindesnes Fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lindesnesfyr",
+                "altitude": "35",
+                "SYNOP Station Identifier": "41770"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "svolver",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5635,
+                    68.2352
+                ]
+            },
+            "properties": {
+                "name": "Svolvær",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/svolver",
+                "altitude": "3",
+                "SYNOP Station Identifier": "85450"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "umea",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.2597,
+                    63.8283
+                ]
+            },
+            "properties": {
+                "name": "Umeå",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/umea",
+                "altitude": "24",
+                "SYNOP Station Identifier": "228600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "karasjok",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.5112,
+                    69.4718
+                ]
+            },
+            "properties": {
+                "name": "Karasjok",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/karasjok",
+                "altitude": "141",
+                "SYNOP Station Identifier": "97251"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hovden",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3567,
+                    59.5602
+                ]
+            },
+            "properties": {
+                "name": "Hovden",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hovden",
+                "altitude": "800",
+                "SYNOP Station Identifier": "40880"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "flekkefjord",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6602,
+                    58.297
+                ]
+            },
+            "properties": {
+                "name": "Flekkefjord",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/flekkefjord",
+                "altitude": "5",
+                "SYNOP Station Identifier": "42650"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "notodden",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.2585,
+                    59.5593
+                ]
+            },
+            "properties": {
+                "name": "Notodden",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/notodden",
+                "altitude": "31",
+                "SYNOP Station Identifier": "30650"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bardufoss",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.5152,
+                    69.0643
+                ]
+            },
+            "properties": {
+                "name": "Bardufoss",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bardufoss",
+                "altitude": "68",
+                "SYNOP Station Identifier": "89350"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rost",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.1173,
+                    67.5175
+                ]
+            },
+            "properties": {
+                "name": "Røst",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rost",
+                "altitude": "5",
+                "SYNOP Station Identifier": "85890"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "stord",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.4997,
+                    59.7808
+                ]
+            },
+            "properties": {
+                "name": "Stord",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/stord",
+                "altitude": "9",
+                "SYNOP Station Identifier": "48120"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "maloy",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.1135,
+                    61.9352
+                ]
+            },
+            "properties": {
+                "name": "Måløy",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/maloy",
+                "altitude": "3",
+                "SYNOP Station Identifier": "59210"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "london",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.541,
+                    51.5083
+                ]
+            },
+            "properties": {
+                "name": "London",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/london",
+                "altitude": "25",
+                "SYNOP Station Identifier": "377200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bjorkelangen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.564,
+                    59.8835
+                ]
+            },
+            "properties": {
+                "name": "Bjørkelangen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bjorkelangen",
+                "altitude": "131",
+                "SYNOP Station Identifier": "2650"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rindal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.2115,
+                    63.0555
+                ]
+            },
+            "properties": {
+                "name": "Rindal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rindal",
+                "altitude": "146",
+                "SYNOP Station Identifier": "64870"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "banak",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.9828,
+                    70.0663
+                ]
+            },
+            "properties": {
+                "name": "Banak",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/banak",
+                "altitude": "8",
+                "SYNOP Station Identifier": "95350"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nelaug",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6332,
+                    58.6565
+                ]
+            },
+            "properties": {
+                "name": "Nelaug",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nelaug",
+                "altitude": "140",
+                "SYNOP Station Identifier": "36560"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "stavanger",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.7178,
+                    58.9652
+                ]
+            },
+            "properties": {
+                "name": "Stavanger",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/stavanger",
+                "altitude": "48",
+                "SYNOP Station Identifier": "44640"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p11b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.3417,
+                    52.36
+                ]
+            },
+            "properties": {
+                "name": "P11-B",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/p11b",
+                "altitude": "41.84",
+                "SYNOP Station Identifier": "06203"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "andoya-spaceport",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.58,
+                    69.1
+                ]
+            },
+            "properties": {
+                "name": "Andøya Spaceport",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/andoya-spaceport",
+                "altitude": "0",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "trysil",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2637,
+                    61.3148
+                ]
+            },
+            "properties": {
+                "name": "Trysil",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/trysil",
+                "altitude": "357",
+                "SYNOP Station Identifier": "180"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "halden",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3873,
+                    59.1245
+                ]
+            },
+            "properties": {
+                "name": "Halden",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/halden",
+                "altitude": "7",
+                "SYNOP Station Identifier": "1230"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bjorli",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.2057,
+                    62.2578
+                ]
+            },
+            "properties": {
+                "name": "Bjorli",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bjorli",
+                "altitude": "576",
+                "SYNOP Station Identifier": "61630"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oosterschelde4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.6939,
+                    51.6558
+                ]
+            },
+            "properties": {
+                "name": "OOSTERSCHELDE 4",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oosterschelde4",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06316"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ekofisk",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.21667,
+                    56.5167
+                ]
+            },
+            "properties": {
+                "name": "Ekofisk",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ekofisk",
+                "altitude": "29",
+                "SYNOP Station Identifier": "1400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "andoya",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.1267,
+                    69.301
+                ]
+            },
+            "properties": {
+                "name": "Andøya",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/andoya",
+                "altitude": "6",
+                "SYNOP Station Identifier": "87110"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "namsoslufthavn",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5705,
+                    64.4707
+                ]
+            },
+            "properties": {
+                "name": "Namsos Lufthavn",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/namsoslufthavn",
+                "altitude": "5",
+                "SYNOP Station Identifier": "72580"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hjelmeland",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1497,
+                    59.2298
+                ]
+            },
+            "properties": {
+                "name": "Hjelmeland",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hjelmeland",
+                "altitude": "43",
+                "SYNOP Station Identifier": "45770"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "berkhoutaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9789,
+                    52.6428
+                ]
+            },
+            "properties": {
+                "name": "BERKHOUT AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/berkhoutaws",
+                "altitude": "-2.4",
+                "SYNOP Station Identifier": "06249"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "trondheim",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.395,
+                    63.4305
+                ]
+            },
+            "properties": {
+                "name": "Trondheim",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/trondheim",
+                "altitude": "8",
+                "SYNOP Station Identifier": "68860"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "utsjok",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.0238,
+                    69.9058
+                ]
+            },
+            "properties": {
+                "name": "Utsjok",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/utsjok",
+                "altitude": "71",
+                "SYNOP Station Identifier": "289000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ijmondwp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.5175,
+                    52.4636
+                ]
+            },
+            "properties": {
+                "name": "IJMOND WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ijmondwp",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06209"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "amsterdamschipholap",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.7897,
+                    52.3172
+                ]
+            },
+            "properties": {
+                "name": "AMSTERDAM/SCHIPHOL AP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/amsterdamschipholap",
+                "altitude": "-3.87",
+                "SYNOP Station Identifier": "06240"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "storlien",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.1,
+                    63.3167
+                ]
+            },
+            "properties": {
+                "name": "Storlien",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/storlien",
+                "altitude": "642",
+                "SYNOP Station Identifier": "220700"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lovozero",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.0158,
+                    68.0063
+                ]
+            },
+            "properties": {
+                "name": "Lovozero",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lovozero",
+                "altitude": "161",
+                "SYNOP Station Identifier": "2212700"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "utsira",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8712,
+                    59.3067
+                ]
+            },
+            "properties": {
+                "name": "Utsira",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/utsira",
+                "altitude": "55",
+                "SYNOP Station Identifier": "47300"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "risor",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.2232,
+                    58.7192
+                ]
+            },
+            "properties": {
+                "name": "Risør",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/risor",
+                "altitude": "21",
+                "SYNOP Station Identifier": "35345"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ski",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.8357,
+                    59.7195
+                ]
+            },
+            "properties": {
+                "name": "Ski",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ski",
+                "altitude": "132",
+                "SYNOP Station Identifier": "17850"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nyrud",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.2442,
+                    69.1472
+                ]
+            },
+            "properties": {
+                "name": "Nyrud",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nyrud",
+                "altitude": "51",
+                "SYNOP Station Identifier": "99540"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "stavenisse",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.0061,
+                    51.5956
+                ]
+            },
+            "properties": {
+                "name": "STAVENISSE",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/stavenisse",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06324"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "budapest",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0398,
+                    47.498
+                ]
+            },
+            "properties": {
+                "name": "Budapest",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/budapest",
+                "altitude": "111",
+                "SYNOP Station Identifier": "1284300"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "awg1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.9417,
+                    53.4917
+                ]
+            },
+            "properties": {
+                "name": "AWG-1",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/awg1",
+                "altitude": "40.5",
+                "SYNOP Station Identifier": "06208"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "westdorpeaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.8611,
+                    51.2247
+                ]
+            },
+            "properties": {
+                "name": "WESTDORPE AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/westdorpeaws",
+                "altitude": "1.68",
+                "SYNOP Station Identifier": "06319"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tonsberg",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4075,
+                    59.2675
+                ]
+            },
+            "properties": {
+                "name": "Tønsberg",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tonsberg",
+                "altitude": "15",
+                "SYNOP Station Identifier": "27260"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "arjeplog",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.886,
+                    66.0517
+                ]
+            },
+            "properties": {
+                "name": "Arjeplog",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/arjeplog",
+                "altitude": "426",
+                "SYNOP Station Identifier": "212400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "glomfjord",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.944,
+                    66.8163
+                ]
+            },
+            "properties": {
+                "name": "Glomfjord",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/glomfjord",
+                "altitude": "111",
+                "SYNOP Station Identifier": "80705"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "meraker-egga",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.743,
+                    63.414
+                ]
+            },
+            "properties": {
+                "name": "Meråker-Egga",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/meraker-egga",
+                "altitude": "120",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vlaktevanderaan",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.2419,
+                    51.5036
+                ]
+            },
+            "properties": {
+                "name": "VLAKTE VAN DE RAAN",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vlaktevanderaan",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06313"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "mosjoen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.1912,
+                    65.8368
+                ]
+            },
+            "properties": {
+                "name": "Mosjøen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/mosjoen",
+                "altitude": "5",
+                "SYNOP Station Identifier": "77230"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bergen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.329,
+                    60.3982
+                ]
+            },
+            "properties": {
+                "name": "Bergen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bergen",
+                "altitude": "54",
+                "SYNOP Station Identifier": "50540"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "warszawa",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0117,
+                    52.2297
+                ]
+            },
+            "properties": {
+                "name": "Warszawa",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/warszawa",
+                "altitude": "113",
+                "SYNOP Station Identifier": "1237500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "andoya-space",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.019085,
+                    69.293603
+                ]
+            },
+            "properties": {
+                "name": "Andøya Space",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/andoya-space",
+                "altitude": "0",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "forde",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8572,
+                    61.4522
+                ]
+            },
+            "properties": {
+                "name": "Førde",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/forde",
+                "altitude": "4",
+                "SYNOP Station Identifier": "57150"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "falun",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.626,
+                    60.6035
+                ]
+            },
+            "properties": {
+                "name": "Falun",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/falun",
+                "altitude": "97",
+                "SYNOP Station Identifier": "243530"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "mandal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4533,
+                    58.0267
+                ]
+            },
+            "properties": {
+                "name": "Mandal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/mandal",
+                "altitude": "5",
+                "SYNOP Station Identifier": "41090"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nordli-holand",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5908,
+                    64.4677
+                ]
+            },
+            "properties": {
+                "name": "Nordli-Holand",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nordli-holand",
+                "altitude": "453",
+                "SYNOP Station Identifier": "73500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hellisoy",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.7105,
+                    60.752
+                ]
+            },
+            "properties": {
+                "name": "Hellisøy",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hellisoy",
+                "altitude": "14",
+                "SYNOP Station Identifier": "52535"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sulitjelma",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.0765,
+                    67.133
+                ]
+            },
+            "properties": {
+                "name": "Sulitjelma",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sulitjelma",
+                "altitude": "130",
+                "SYNOP Station Identifier": "81900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kjopsvik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3737,
+                    68.096
+                ]
+            },
+            "properties": {
+                "name": "Kjøpsvik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kjopsvik",
+                "altitude": "34",
+                "SYNOP Station Identifier": "83710"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "goliatfeltet",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3187,
+                    71.2863
+                ]
+            },
+            "properties": {
+                "name": "GOLIATFELTET",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/goliatfeltet",
+                "altitude": "0",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sirdal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9567,
+                    58.9602
+                ]
+            },
+            "properties": {
+                "name": "Sirdal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sirdal",
+                "altitude": "560",
+                "SYNOP Station Identifier": "42940"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "karlstad",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5035,
+                    59.3792
+                ]
+            },
+            "properties": {
+                "name": "Karlstad",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/karlstad",
+                "altitude": "58",
+                "SYNOP Station Identifier": "241800"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lauwersoogaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1992,
+                    53.4117
+                ]
+            },
+            "properties": {
+                "name": "LAUWERSOOG AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lauwersoogaws",
+                "altitude": "2.9",
+                "SYNOP Station Identifier": "06277"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hupselaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6567,
+                    52.0678
+                ]
+            },
+            "properties": {
+                "name": "HUPSEL AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hupselaws",
+                "altitude": "29.07",
+                "SYNOP Station Identifier": "06283"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "helnesfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.221,
+                    71.0612
+                ]
+            },
+            "properties": {
+                "name": "Helnes fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/helnesfyr",
+                "altitude": "28",
+                "SYNOP Station Identifier": "94680"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "horten",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4833,
+                    59.4172
+                ]
+            },
+            "properties": {
+                "name": "Horten",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/horten",
+                "altitude": "12",
+                "SYNOP Station Identifier": "27160"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "goteborg",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.9667,
+                    57.7072
+                ]
+            },
+            "properties": {
+                "name": "Gøteborg",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/goteborg",
+                "altitude": "10",
+                "SYNOP Station Identifier": "251300"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lom",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5683,
+                    61.8377
+                ]
+            },
+            "properties": {
+                "name": "Lom",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lom",
+                "altitude": "381",
+                "SYNOP Station Identifier": "15050"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lyngorfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1297,
+                    58.6325
+                ]
+            },
+            "properties": {
+                "name": "Lyngør Fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lyngorfyr",
+                "altitude": "10",
+                "SYNOP Station Identifier": "35860"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kobenhavn",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5655,
+                    55.6758
+                ]
+            },
+            "properties": {
+                "name": "København",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kobenhavn",
+                "altitude": "14",
+                "SYNOP Station Identifier": "618000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nieuwvennepbtp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.6478,
+                    52.255
+                ]
+            },
+            "properties": {
+                "name": "Nieuw Vennep BTP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nieuwvennepbtp",
+                "altitude": "-4.8",
+                "SYNOP Station Identifier": "06237"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "stromtangenfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.8293,
+                    59.151
+                ]
+            },
+            "properties": {
+                "name": "Strømtangen Fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/stromtangenfyr",
+                "altitude": "10",
+                "SYNOP Station Identifier": "1495"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "k14fa1c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.6278,
+                    53.2694
+                ]
+            },
+            "properties": {
+                "name": "K14-FA-1C",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/k14fa1c",
+                "altitude": "41.8",
+                "SYNOP Station Identifier": "06204"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nieuwkoopbtp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.765,
+                    52.1514
+                ]
+            },
+            "properties": {
+                "name": "Nieuwkoop BTP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nieuwkoopbtp",
+                "altitude": "-5.77",
+                "SYNOP Station Identifier": "06238"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "debiltaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.1797,
+                    52.0989
+                ]
+            },
+            "properties": {
+                "name": "DE BILT AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/debiltaws",
+                "altitude": "1.9",
+                "SYNOP Station Identifier": "06260"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lichteilandgoeree",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.67,
+                    51.9258
+                ]
+            },
+            "properties": {
+                "name": "LICHTEILAND GOEREE",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lichteilandgoeree",
+                "altitude": "24.58",
+                "SYNOP Station Identifier": "06320"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "voss",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.4147,
+                    60.6287
+                ]
+            },
+            "properties": {
+                "name": "Voss",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/voss",
+                "altitude": "50",
+                "SYNOP Station Identifier": "51530"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "paris",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3348,
+                    48.8533
+                ]
+            },
+            "properties": {
+                "name": "Paris",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/paris",
+                "altitude": "42",
+                "SYNOP Station Identifier": "715600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "varna",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.9167,
+                    43.2
+                ]
+            },
+            "properties": {
+                "name": "Varna",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/varna",
+                "altitude": "40",
+                "SYNOP Station Identifier": "1555200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kragero",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.4148,
+                    58.8692
+                ]
+            },
+            "properties": {
+                "name": "Kragerø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kragero",
+                "altitude": "3",
+                "SYNOP Station Identifier": "34190"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gjerde",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2627,
+                    61.6322
+                ]
+            },
+            "properties": {
+                "name": "Gjerde",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gjerde",
+                "altitude": "213",
+                "SYNOP Station Identifier": "55420"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "voorschotenaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4364,
+                    52.1397
+                ]
+            },
+            "properties": {
+                "name": "VOORSCHOTEN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/voorschotenaws",
+                "altitude": "-1.15",
+                "SYNOP Station Identifier": "06215"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lerdal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4737,
+                    61.0998
+                ]
+            },
+            "properties": {
+                "name": "Lerdal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lerdal",
+                "altitude": "2",
+                "SYNOP Station Identifier": "54110"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kongsvinger",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.9977,
+                    60.1903
+                ]
+            },
+            "properties": {
+                "name": "Kongsvinger",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kongsvinger",
+                "altitude": "153",
+                "SYNOP Station Identifier": "5590"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "egersund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.004,
+                    58.4417
+                ]
+            },
+            "properties": {
+                "name": "Egersund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/egersund",
+                "altitude": "42",
+                "SYNOP Station Identifier": "43370"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "karesuando",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.4818,
+                    68.4417
+                ]
+            },
+            "properties": {
+                "name": "Karesuando",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/karesuando",
+                "altitude": "330",
+                "SYNOP Station Identifier": "208100"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rjukan",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.594,
+                    59.8788
+                ]
+            },
+            "properties": {
+                "name": "Rjukan",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rjukan",
+                "altitude": "301",
+                "SYNOP Station Identifier": "31411"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "groningenapeelde",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.5847,
+                    53.1236
+                ]
+            },
+            "properties": {
+                "name": "GRONINGEN AP EELDE",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/groningenapeelde",
+                "altitude": "3.23",
+                "SYNOP Station Identifier": "06280"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "stockholm",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0648,
+                    59.3325
+                ]
+            },
+            "properties": {
+                "name": "Stockholm",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/stockholm",
+                "altitude": "28",
+                "SYNOP Station Identifier": "248400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tingvoll-hanem",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.2055,
+                    62.913
+                ]
+            },
+            "properties": {
+                "name": "Tingvoll-Hanem",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tingvoll-hanem",
+                "altitude": "21",
+                "SYNOP Station Identifier": "64510"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "inari",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.0287,
+                    68.9058
+                ]
+            },
+            "properties": {
+                "name": "Inari",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/inari",
+                "altitude": "122",
+                "SYNOP Station Identifier": "280700"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ijmuidenwp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.555,
+                    52.4622
+                ]
+            },
+            "properties": {
+                "name": "IJMUIDEN WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ijmuidenwp",
+                "altitude": "4.4",
+                "SYNOP Station Identifier": "06225"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "wilhelminadorpaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.8836,
+                    51.5258
+                ]
+            },
+            "properties": {
+                "name": "WILHELMINADORP AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/wilhelminadorpaws",
+                "altitude": "1.65",
+                "SYNOP Station Identifier": "06323"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dublin",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.5822,
+                    53.333
+                ]
+            },
+            "properties": {
+                "name": "Dublin",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/dublin",
+                "altitude": "17",
+                "SYNOP Station Identifier": "396900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "soesterberg",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.2731,
+                    52.1289
+                ]
+            },
+            "properties": {
+                "name": "SOESTERBERG",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/soesterberg",
+                "altitude": "14",
+                "SYNOP Station Identifier": "06265"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lelystadap",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5081,
+                    52.4483
+                ]
+            },
+            "properties": {
+                "name": "LELYSTAD AP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lelystadap",
+                "altitude": "-4.52",
+                "SYNOP Station Identifier": "06269"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "haugesund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.268,
+                    59.4137
+                ]
+            },
+            "properties": {
+                "name": "Haugesund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/haugesund",
+                "altitude": "14",
+                "SYNOP Station Identifier": "47260"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "floro",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.0327,
+                    61.5995
+                ]
+            },
+            "properties": {
+                "name": "Florø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/floro",
+                "altitude": "7",
+                "SYNOP Station Identifier": "57710"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "mongstad",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.0668,
+                    60.7943
+                ]
+            },
+            "properties": {
+                "name": "Mongstad",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/mongstad",
+                "altitude": "4",
+                "SYNOP Station Identifier": "52555"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sodankyla",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26,
+                    67.4167
+                ]
+            },
+            "properties": {
+                "name": "Sodankyla",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sodankyla",
+                "altitude": "191",
+                "SYNOP Station Identifier": "283600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ytreenebakk",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0398,
+                    59.7298
+                ]
+            },
+            "properties": {
+                "name": "Ytre Enebakk",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ytreenebakk",
+                "altitude": "160",
+                "SYNOP Station Identifier": "17640"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kirkenes",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.0457,
+                    69.727
+                ]
+            },
+            "properties": {
+                "name": "Kirkenes",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kirkenes",
+                "altitude": "9",
+                "SYNOP Station Identifier": "99370"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lunner",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.59,
+                    60.31
+                ]
+            },
+            "properties": {
+                "name": "Lunner",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lunner",
+                "altitude": "280",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "snii",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5,
+                    56.9
+                ]
+            },
+            "properties": {
+                "name": "SNII",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/snii",
+                "altitude": "0",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "fredrikstad",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9297,
+                    59.218
+                ]
+            },
+            "properties": {
+                "name": "Fredrikstad",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/fredrikstad",
+                "altitude": "3",
+                "SYNOP Station Identifier": "1493"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "geneve",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1457,
+                    46.2022
+                ]
+            },
+            "properties": {
+                "name": "Geneve",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/geneve",
+                "altitude": "350",
+                "SYNOP Station Identifier": "670000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "skien",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.609,
+                    59.2095
+                ]
+            },
+            "properties": {
+                "name": "Skien",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/skien",
+                "altitude": "19",
+                "SYNOP Station Identifier": "30301"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "etne",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.9537,
+                    59.6623
+                ]
+            },
+            "properties": {
+                "name": "Etne",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/etne",
+                "altitude": "8",
+                "SYNOP Station Identifier": "47498"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sollihogda",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.3455,
+                    59.9638
+                ]
+            },
+            "properties": {
+                "name": "Sollihøgda",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sollihogda",
+                "altitude": "339",
+                "SYNOP Station Identifier": "19663"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hoekvanhollandaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.1217,
+                    51.9911
+                ]
+            },
+            "properties": {
+                "name": "HOEK VAN HOLLAND AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hoekvanhollandaws",
+                "altitude": "11.86",
+                "SYNOP Station Identifier": "06330"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "huibertgatwp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.3983,
+                    53.5739
+                ]
+            },
+            "properties": {
+                "name": "HUIBERTGAT WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/huibertgatwp",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06285"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bodo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.375,
+                    67.2827
+                ]
+            },
+            "properties": {
+                "name": "Bodø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bodo",
+                "altitude": "4",
+                "SYNOP Station Identifier": "82290"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "byglandsfjor",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.813,
+                    58.666
+                ]
+            },
+            "properties": {
+                "name": "Byglandsfjor",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/byglandsfjor",
+                "altitude": "207",
+                "SYNOP Station Identifier": "39750"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "brussel",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3487,
+                    50.8503
+                ]
+            },
+            "properties": {
+                "name": "Brussel",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/brussel",
+                "altitude": "28",
+                "SYNOP Station Identifier": "645100"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lulea",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.1545,
+                    65.5842
+                ]
+            },
+            "properties": {
+                "name": "Luleå",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lulea",
+                "altitude": "17",
+                "SYNOP Station Identifier": "218600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "smola",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.0342,
+                    63.3565
+                ]
+            },
+            "properties": {
+                "name": "Smøla",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/smola",
+                "altitude": "28",
+                "SYNOP Station Identifier": "65310"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "alesund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1587,
+                    62.4738
+                ]
+            },
+            "properties": {
+                "name": "Ålesund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/alesund",
+                "altitude": "20",
+                "SYNOP Station Identifier": "60945"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tafjord",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4177,
+                    62.2323
+                ]
+            },
+            "properties": {
+                "name": "Tafjord",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tafjord",
+                "altitude": "6",
+                "SYNOP Station Identifier": "60500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "drammen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.2045,
+                    59.7438
+                ]
+            },
+            "properties": {
+                "name": "Drammen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/drammen",
+                "altitude": "4",
+                "SYNOP Station Identifier": "26900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hamar",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0678,
+                    60.7943
+                ]
+            },
+            "properties": {
+                "name": "Hamar",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hamar",
+                "altitude": "127",
+                "SYNOP Station Identifier": "12290"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vilhelmina",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.6562,
+                    64.6267
+                ]
+            },
+            "properties": {
+                "name": "Vilhelmina",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vilhelmina",
+                "altitude": "372",
+                "SYNOP Station Identifier": "224500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "f16a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.0122,
+                    54.1167
+                ]
+            },
+            "properties": {
+                "name": "F16-A",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/f16a",
+                "altitude": "43.4",
+                "SYNOP Station Identifier": "06206"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hol",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.2938,
+                    60.615
+                ]
+            },
+            "properties": {
+                "name": "Hol",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hol",
+                "altitude": "546",
+                "SYNOP Station Identifier": "25580"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "jokkmokk",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.8332,
+                    66.6167
+                ]
+            },
+            "properties": {
+                "name": "Jokkmokk",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/jokkmokk",
+                "altitude": "251",
+                "SYNOP Station Identifier": "215100"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nieuwbeertaaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1492,
+                    53.1944
+                ]
+            },
+            "properties": {
+                "name": "NIEUW BEERTA AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nieuwbeertaaws",
+                "altitude": "-0.2",
+                "SYNOP Station Identifier": "06286"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "herwijnenaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.1453,
+                    51.8578
+                ]
+            },
+            "properties": {
+                "name": "HERWIJNEN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/herwijnenaws",
+                "altitude": "0.66",
+                "SYNOP Station Identifier": "06356"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "europlatform",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.275,
+                    51.9978
+                ]
+            },
+            "properties": {
+                "name": "EURO PLATFORM",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/europlatform",
+                "altitude": "19",
+                "SYNOP Station Identifier": "06321"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rotterdamgeulhaven",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3125,
+                    51.8919
+                ]
+            },
+            "properties": {
+                "name": "ROTTERDAM GEULHAVEN",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rotterdamgeulhaven",
+                "altitude": "3.5",
+                "SYNOP Station Identifier": "06343"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "drevsjo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.029,
+                    61.89
+                ]
+            },
+            "properties": {
+                "name": "Drevsjø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/drevsjo",
+                "altitude": "674",
+                "SYNOP Station Identifier": "700"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "arendal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7668,
+                    58.4612
+                ]
+            },
+            "properties": {
+                "name": "Arendal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/arendal",
+                "altitude": "15",
+                "SYNOP Station Identifier": "36110"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "beograd",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.465,
+                    44.804
+                ]
+            },
+            "properties": {
+                "name": "Beograd",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/beograd",
+                "altitude": "120",
+                "SYNOP Station Identifier": "1327200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sogndal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0967,
+                    61.229
+                ]
+            },
+            "properties": {
+                "name": "Sogndal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sogndal",
+                "altitude": "5",
+                "SYNOP Station Identifier": "55710"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rorvik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.2372,
+                    64.8617
+                ]
+            },
+            "properties": {
+                "name": "Rørvik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rorvik",
+                "altitude": "30",
+                "SYNOP Station Identifier": "75220"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oosterscheldewp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.6217,
+                    51.7667
+                ]
+            },
+            "properties": {
+                "name": "OOSTERSCHELDE WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oosterscheldewp",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06312"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rotterdamthehagueap",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4469,
+                    51.9606
+                ]
+            },
+            "properties": {
+                "name": "ROTTERDAM THE HAGUE AP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rotterdamthehagueap",
+                "altitude": "-5.14",
+                "SYNOP Station Identifier": "06344"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "arcenaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1961,
+                    51.4972
+                ]
+            },
+            "properties": {
+                "name": "ARCEN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/arcenaws",
+                "altitude": "19.5",
+                "SYNOP Station Identifier": "06391"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "strynsentrum",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7178,
+                    61.9025
+                ]
+            },
+            "properties": {
+                "name": "Stryn Sentrum",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/strynsentrum",
+                "altitude": "5",
+                "SYNOP Station Identifier": "58900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "texelhorswp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.72,
+                    52.995
+                ]
+            },
+            "properties": {
+                "name": "TEXELHORS WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/texelhorswp",
+                "altitude": "1",
+                "SYNOP Station Identifier": "06229"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "madrid",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0358,
+                    40.4165
+                ]
+            },
+            "properties": {
+                "name": "Madrid",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/madrid",
+                "altitude": "665",
+                "SYNOP Station Identifier": "822100"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kyiv",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.5237,
+                    50.4547
+                ]
+            },
+            "properties": {
+                "name": "Kyiv",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kyiv",
+                "altitude": "187",
+                "SYNOP Station Identifier": "3334500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "laspalmas",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -15.0533,
+                    28.05
+                ]
+            },
+            "properties": {
+                "name": "Las Palmas",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/laspalmas",
+                "altitude": "89",
+                "SYNOP Station Identifier": "6003000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vikersund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.991,
+                    59.9682
+                ]
+            },
+            "properties": {
+                "name": "Vikersund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vikersund",
+                "altitude": "67",
+                "SYNOP Station Identifier": "26500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kongsberg",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6502,
+                    59.6685
+                ]
+            },
+            "properties": {
+                "name": "Kongsberg",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kongsberg",
+                "altitude": "164",
+                "SYNOP Station Identifier": "28380"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "prestebakke",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5367,
+                    58.9917
+                ]
+            },
+            "properties": {
+                "name": "Prestebakke",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/prestebakke",
+                "altitude": "159",
+                "SYNOP Station Identifier": "1135"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kypros",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.6292,
+                    34.9167
+                ]
+            },
+            "properties": {
+                "name": "Kypros",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kypros",
+                "altitude": "13",
+                "SYNOP Station Identifier": "1760900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "moss",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.6577,
+                    59.4338
+                ]
+            },
+            "properties": {
+                "name": "Moss",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/moss",
+                "altitude": "14",
+                "SYNOP Station Identifier": "17150"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vega-vallsjo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8562,
+                    65.7017
+                ]
+            },
+            "properties": {
+                "name": "Vega-Vallsjo",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vega-vallsjo",
+                "altitude": "4",
+                "SYNOP Station Identifier": "76450"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "leeuwarden",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.7517,
+                    53.2231
+                ]
+            },
+            "properties": {
+                "name": "LEEUWARDEN",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/leeuwarden",
+                "altitude": "0.27",
+                "SYNOP Station Identifier": "06270"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hollandsekustnoordhna",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.2933,
+                    52.6978
+                ]
+            },
+            "properties": {
+                "name": "Hollandse Kust Noord (HNA)",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hollandsekustnoordhna",
+                "altitude": "39.66",
+                "SYNOP Station Identifier": "06213"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vlissingenaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.5958,
+                    51.4414
+                ]
+            },
+            "properties": {
+                "name": "VLISSINGEN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vlissingenaws",
+                "altitude": "8.03",
+                "SYNOP Station Identifier": "06310"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "longyearbyen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6315,
+                    78.2222
+                ]
+            },
+            "properties": {
+                "name": "Longyearbyen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/longyearbyen",
+                "altitude": "5",
+                "SYNOP Station Identifier": "99840"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hammerfest",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.682,
+                    70.6633
+                ]
+            },
+            "properties": {
+                "name": "Hammerfest",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hammerfest",
+                "altitude": "2",
+                "SYNOP Station Identifier": "94280"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "beitostolen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9062,
+                    61.2487
+                ]
+            },
+            "properties": {
+                "name": "Beitostølen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/beitostolen",
+                "altitude": "895",
+                "SYNOP Station Identifier": "23550"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bjornholt",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.6877,
+                    60.0512
+                ]
+            },
+            "properties": {
+                "name": "Bjørnholt",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bjornholt",
+                "altitude": "360",
+                "SYNOP Station Identifier": "18500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oystese",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.2007,
+                    60.3867
+                ]
+            },
+            "properties": {
+                "name": "Øystese",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oystese",
+                "altitude": "4",
+                "SYNOP Station Identifier": "50105"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valkenburgvk",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4294,
+                    52.1703
+                ]
+            },
+            "properties": {
+                "name": "VALKENBURG VK",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/valkenburgvk",
+                "altitude": "-0.2",
+                "SYNOP Station Identifier": "06210"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oksoyfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.0527,
+                    58.0722
+                ]
+            },
+            "properties": {
+                "name": "Oksøy Fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oksoyfyr",
+                "altitude": "9",
+                "SYNOP Station Identifier": "39100"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "koppang",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0465,
+                    61.5722
+                ]
+            },
+            "properties": {
+                "name": "Koppang",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/koppang",
+                "altitude": "352",
+                "SYNOP Station Identifier": "8230"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hvaler",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0257,
+                    59.0327
+                ]
+            },
+            "properties": {
+                "name": "Hvaler",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hvaler",
+                "altitude": "17",
+                "SYNOP Station Identifier": "17000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sognefjell",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.998,
+                    61.5647
+                ]
+            },
+            "properties": {
+                "name": "Sognefjell",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sognefjell",
+                "altitude": "1410",
+                "SYNOP Station Identifier": "55290"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "marknesseaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8875,
+                    52.7019
+                ]
+            },
+            "properties": {
+                "name": "MARKNESSE AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/marknesseaws",
+                "altitude": "-3.35",
+                "SYNOP Station Identifier": "06273"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tromso",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.955,
+                    69.6488
+                ]
+            },
+            "properties": {
+                "name": "Tromsø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tromso",
+                "altitude": "6",
+                "SYNOP Station Identifier": "90450"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eidsvoll",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.2615,
+                    60.3305
+                ]
+            },
+            "properties": {
+                "name": "Eidsvoll",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/eidsvoll",
+                "altitude": "145",
+                "SYNOP Station Identifier": "11091"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "cadzandwp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.3792,
+                    51.38
+                ]
+            },
+            "properties": {
+                "name": "CADZAND WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/cadzandwp",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06308"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "steinkjer",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.4953,
+                    64.0147
+                ]
+            },
+            "properties": {
+                "name": "Steinkjer",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/steinkjer",
+                "altitude": "7",
+                "SYNOP Station Identifier": "71000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "takle",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3787,
+                    61.0267
+                ]
+            },
+            "properties": {
+                "name": "Takle",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/takle",
+                "altitude": "37",
+                "SYNOP Station Identifier": "52860"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tunis",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1657,
+                    36.819
+                ]
+            },
+            "properties": {
+                "name": "Tunis",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tunis",
+                "altitude": "23",
+                "SYNOP Station Identifier": "6071500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ostersund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6357,
+                    63.1792
+                ]
+            },
+            "properties": {
+                "name": "Østersund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ostersund",
+                "altitude": "328",
+                "SYNOP Station Identifier": "222600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "boivesteralen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4467,
+                    68.6207
+                ]
+            },
+            "properties": {
+                "name": "Bø I Vesterålen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/boivesteralen",
+                "altitude": "7",
+                "SYNOP Station Identifier": "86740"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "snorre-b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.21167,
+                    61.525
+                ]
+            },
+            "properties": {
+                "name": "Snorre B",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/snorre-b",
+                "altitude": "0",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "saltdal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.3155,
+                    66.9367
+                ]
+            },
+            "properties": {
+                "name": "Saltdal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/saltdal",
+                "altitude": "39",
+                "SYNOP Station Identifier": "81650"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nice",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.266,
+                    43.703
+                ]
+            },
+            "properties": {
+                "name": "Nice",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nice",
+                "altitude": "25",
+                "SYNOP Station Identifier": "769000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "alta",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.2717,
+                    69.9688
+                ]
+            },
+            "properties": {
+                "name": "Alta",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/alta",
+                "altitude": "60",
+                "SYNOP Station Identifier": "93140"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "wijkaanzeeaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.6031,
+                    52.5053
+                ]
+            },
+            "properties": {
+                "name": "WIJK AAN ZEE AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/wijkaanzeeaws",
+                "altitude": "8.5",
+                "SYNOP Station Identifier": "06257"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "roma",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4838,
+                    41.8947
+                ]
+            },
+            "properties": {
+                "name": "Roma",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/roma",
+                "altitude": "29",
+                "SYNOP Station Identifier": "1624200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dombas",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1278,
+                    62.0755
+                ]
+            },
+            "properties": {
+                "name": "Dombås",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/dombas",
+                "altitude": "642",
+                "SYNOP Station Identifier": "16560"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "seljord",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6302,
+                    59.4847
+                ]
+            },
+            "properties": {
+                "name": "Seljord",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/seljord",
+                "altitude": "128",
+                "SYNOP Station Identifier": "32290"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rovaniemi",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.7167,
+                    66.5
+                ]
+            },
+            "properties": {
+                "name": "Rovaniemi",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rovaniemi",
+                "altitude": "92",
+                "SYNOP Station Identifier": "284500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gamvik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.2467,
+                    71.0637
+                ]
+            },
+            "properties": {
+                "name": "Gamvik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gamvik",
+                "altitude": "7",
+                "SYNOP Station Identifier": "96560"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "deelen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8722,
+                    52.0547
+                ]
+            },
+            "properties": {
+                "name": "DEELEN",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/deelen",
+                "altitude": "45.23",
+                "SYNOP Station Identifier": "06275"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "heinoaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.2589,
+                    52.4344
+                ]
+            },
+            "properties": {
+                "name": "HEINO AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/heinoaws",
+                "altitude": "3.6",
+                "SYNOP Station Identifier": "06278"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "twentheaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8908,
+                    52.2731
+                ]
+            },
+            "properties": {
+                "name": "TWENTHE AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/twentheaws",
+                "altitude": "33.02",
+                "SYNOP Station Identifier": "06290"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vardo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.1107,
+                    70.3703
+                ]
+            },
+            "properties": {
+                "name": "Vardø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vardo",
+                "altitude": "9",
+                "SYNOP Station Identifier": "98550"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "finse",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.504,
+                    60.6017
+                ]
+            },
+            "properties": {
+                "name": "Finse",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/finse",
+                "altitude": "1222",
+                "SYNOP Station Identifier": "25830"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tynset",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7822,
+                    62.2757
+                ]
+            },
+            "properties": {
+                "name": "Tynset",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tynset",
+                "altitude": "493",
+                "SYNOP Station Identifier": "9580"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eindhovenap",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3769,
+                    51.4497
+                ]
+            },
+            "properties": {
+                "name": "EINDHOVEN AP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/eindhovenap",
+                "altitude": "20.69",
+                "SYNOP Station Identifier": "06370"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "elverum",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5622,
+                    60.8818
+                ]
+            },
+            "properties": {
+                "name": "Elverum",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/elverum",
+                "altitude": "190",
+                "SYNOP Station Identifier": "6600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "askim",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1628,
+                    59.5832
+                ]
+            },
+            "properties": {
+                "name": "Askim",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/askim",
+                "altitude": "127",
+                "SYNOP Station Identifier": "3810"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "a12cpp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.8103,
+                    55.3992
+                ]
+            },
+            "properties": {
+                "name": "A12-CPP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/a12cpp",
+                "altitude": "48.35",
+                "SYNOP Station Identifier": "06205"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hoorna",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.1503,
+                    52.9181
+                ]
+            },
+            "properties": {
+                "name": "HOORN-A",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hoorna",
+                "altitude": "50.9",
+                "SYNOP Station Identifier": "06212"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "honefoss",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.2565,
+                    60.1678
+                ]
+            },
+            "properties": {
+                "name": "Hønefoss",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/honefoss",
+                "altitude": "75",
+                "SYNOP Station Identifier": "20301"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "holmestrand",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.3175,
+                    59.4867
+                ]
+            },
+            "properties": {
+                "name": "Holmestrand",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/holmestrand",
+                "altitude": "1",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "olen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8077,
+                    59.6042
+                ]
+            },
+            "properties": {
+                "name": "Ølen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/olen",
+                "altitude": "15",
+                "SYNOP Station Identifier": "47491"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kristiansand",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9957,
+                    58.146
+                ]
+            },
+            "properties": {
+                "name": "Kristiansand",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kristiansand",
+                "altitude": "7",
+                "SYNOP Station Identifier": "39040"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "narvik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.3982,
+                    68.4362
+                ]
+            },
+            "properties": {
+                "name": "Narvik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/narvik",
+                "altitude": "87",
+                "SYNOP Station Identifier": "84710"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ferderfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5242,
+                    59.0272
+                ]
+            },
+            "properties": {
+                "name": "Ferder Fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ferderfyr",
+                "altitude": "6",
+                "SYNOP Station Identifier": "27500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "reykjavik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -20.2287,
+                    64.1353
+                ]
+            },
+            "properties": {
+                "name": "Reykjavik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/reykjavik",
+                "altitude": "37",
+                "SYNOP Station Identifier": "403000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "orje",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6602,
+                    59.4802
+                ]
+            },
+            "properties": {
+                "name": "Ørje",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/orje",
+                "altitude": "131",
+                "SYNOP Station Identifier": "1950"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "arvidsjaur",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.1667,
+                    65.5902
+                ]
+            },
+            "properties": {
+                "name": "Arvidsjaur",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/arvidsjaur",
+                "altitude": "380",
+                "SYNOP Station Identifier": "214900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "woensdrecht",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3419,
+                    51.4478
+                ]
+            },
+            "properties": {
+                "name": "WOENSDRECHT",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/woensdrecht",
+                "altitude": "15.04",
+                "SYNOP Station Identifier": "06340"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sortland",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4137,
+                    68.6982
+                ]
+            },
+            "properties": {
+                "name": "Sortland",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sortland",
+                "altitude": "12",
+                "SYNOP Station Identifier": "86500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tveitsund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5247,
+                    59.0167
+                ]
+            },
+            "properties": {
+                "name": "Tveitsund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/tveitsund",
+                "altitude": "251",
+                "SYNOP Station Identifier": "37230"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "heraklion",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1833,
+                    35.3333
+                ]
+            },
+            "properties": {
+                "name": "Heraklion",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/heraklion",
+                "altitude": "39",
+                "SYNOP Station Identifier": "16754"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oulo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.4682,
+                    65.0123
+                ]
+            },
+            "properties": {
+                "name": "Oulo",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oulo",
+                "altitude": "15",
+                "SYNOP Station Identifier": "287500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "wijdeneswp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.1736,
+                    52.6325
+                ]
+            },
+            "properties": {
+                "name": "WIJDENES WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/wijdeneswp",
+                "altitude": "0.8",
+                "SYNOP Station Identifier": "06248"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nordreisa",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0243,
+                    69.7682
+                ]
+            },
+            "properties": {
+                "name": "Nordreisa",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nordreisa",
+                "altitude": "4",
+                "SYNOP Station Identifier": "91740"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "odda",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.5455,
+                    60.069
+                ]
+            },
+            "properties": {
+                "name": "Odda",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/odda",
+                "altitude": "4",
+                "SYNOP Station Identifier": "49490"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "j6a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.9453,
+                    53.8242
+                ]
+            },
+            "properties": {
+                "name": "J6-A",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/j6a",
+                "altitude": "45.7",
+                "SYNOP Station Identifier": "06211"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "surnadalsora",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6852,
+                    62.9697
+                ]
+            },
+            "properties": {
+                "name": "Surnadalsøra",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/surnadalsora",
+                "altitude": "15",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lillestromby",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0492,
+                    59.956
+                ]
+            },
+            "properties": {
+                "name": "Lillestrøm By",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lillestromby",
+                "altitude": "109",
+                "SYNOP Station Identifier": "4200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "cabauwtoweraws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9258,
+                    51.9692
+                ]
+            },
+            "properties": {
+                "name": "CABAUW TOWER AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/cabauwtoweraws",
+                "altitude": "-0.71",
+                "SYNOP Station Identifier": "06348"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rondane",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7263,
+                    61.9305
+                ]
+            },
+            "properties": {
+                "name": "Rondane",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rondane",
+                "altitude": "1724",
+                "SYNOP Station Identifier": "9310"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "muidenbtp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.0922,
+                    52.3353
+                ]
+            },
+            "properties": {
+                "name": "Muiden BTP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/muidenbtp",
+                "altitude": "-0.9",
+                "SYNOP Station Identifier": "06236"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "terschellinghoornaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3458,
+                    53.3911
+                ]
+            },
+            "properties": {
+                "name": "TERSCHELLING HOORN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/terschellinghoornaws",
+                "altitude": "0.73",
+                "SYNOP Station Identifier": "06251"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hansweert",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.9975,
+                    51.4458
+                ]
+            },
+            "properties": {
+                "name": "HANSWEERT",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hansweert",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06315"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vuotso",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.1332,
+                    68.0998
+                ]
+            },
+            "properties": {
+                "name": "Vuotso",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vuotso",
+                "altitude": "260",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "torsvagfyr",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.4997,
+                    70.2452
+                ]
+            },
+            "properties": {
+                "name": "Torsvåg Fyr",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/torsvagfyr",
+                "altitude": "21",
+                "SYNOP Station Identifier": "90800"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "moirana",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.428,
+                    66.3127
+                ]
+            },
+            "properties": {
+                "name": "Mo I Rana",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/moirana",
+                "altitude": "26",
+                "SYNOP Station Identifier": "79600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "geilo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.2053,
+                    60.5337
+                ]
+            },
+            "properties": {
+                "name": "Geilo",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/geilo",
+                "altitude": "798",
+                "SYNOP Station Identifier": "25640"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "harstad",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.544,
+                    68.801
+                ]
+            },
+            "properties": {
+                "name": "Harstad",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/harstad",
+                "altitude": "3",
+                "SYNOP Station Identifier": "87640"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "asker",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4372,
+                    59.8332
+                ]
+            },
+            "properties": {
+                "name": "Asker",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/asker",
+                "altitude": "104",
+                "SYNOP Station Identifier": "19710"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "folldal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9967,
+                    62.1323
+                ]
+            },
+            "properties": {
+                "name": "Folldal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/folldal",
+                "altitude": "710",
+                "SYNOP Station Identifier": "9160"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "yme",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.5521,
+                    57.8191
+                ]
+            },
+            "properties": {
+                "name": "Yme",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/yme",
+                "altitude": "0",
+                "SYNOP Station Identifier": "0    "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dubrovnik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0922,
+                    42.648
+                ]
+            },
+            "properties": {
+                "name": "Dubrovnik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/dubrovnik",
+                "altitude": "52",
+                "SYNOP Station Identifier": "1447200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "mehamn",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.8513,
+                    71.0413
+                ]
+            },
+            "properties": {
+                "name": "Mehamn",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/mehamn",
+                "altitude": "14",
+                "SYNOP Station Identifier": "96560"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hattfjelldal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.9878,
+                    65.5973
+                ]
+            },
+            "properties": {
+                "name": "Hattfjelldal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hattfjelldal",
+                "altitude": "214",
+                "SYNOP Station Identifier": "78800"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gilzerijen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9353,
+                    51.565
+                ]
+            },
+            "properties": {
+                "name": "GILZE RIJEN",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gilzerijen",
+                "altitude": "11.95",
+                "SYNOP Station Identifier": "06350"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "malaga",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7535,
+                    36.7202
+                ]
+            },
+            "properties": {
+                "name": "Malaga",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/malaga",
+                "altitude": "22",
+                "SYNOP Station Identifier": "848200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "athen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7162,
+                    37.9793
+                ]
+            },
+            "properties": {
+                "name": "Athen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/athen",
+                "altitude": "70",
+                "SYNOP Station Identifier": "1671600"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gran",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5727,
+                    60.3592
+                ]
+            },
+            "properties": {
+                "name": "Gran",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gran",
+                "altitude": "215",
+                "SYNOP Station Identifier": "20540"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "orland",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6262,
+                    63.7058
+                ]
+            },
+            "properties": {
+                "name": "Ørland",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/orland",
+                "altitude": "10",
+                "SYNOP Station Identifier": "71550"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hollandsekustzuidalfahkza",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.0422,
+                    52.3194
+                ]
+            },
+            "properties": {
+                "name": "Hollandse Kust Zuid Alfa (HKZA)",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hollandsekustzuidalfahkza",
+                "altitude": "44",
+                "SYNOP Station Identifier": "06216"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "k13a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.2203,
+                    53.2178
+                ]
+            },
+            "properties": {
+                "name": "K13-A",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/k13a",
+                "altitude": "37.67",
+                "SYNOP Station Identifier": "06252"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vlieland",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9208,
+                    53.24
+                ]
+            },
+            "properties": {
+                "name": "VLIELAND",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vlieland",
+                "altitude": "1.72",
+                "SYNOP Station Identifier": "06242"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "houtribdijkwp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.4006,
+                    52.6481
+                ]
+            },
+            "properties": {
+                "name": "HOUTRIBDIJK WP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/houtribdijkwp",
+                "altitude": "7.25",
+                "SYNOP Station Identifier": "06258"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bronnoysund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2075,
+                    65.468
+                ]
+            },
+            "properties": {
+                "name": "Brønnøysund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bronnoysund",
+                "altitude": "8",
+                "SYNOP Station Identifier": "76330"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "larvik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0352,
+                    59.0532
+                ]
+            },
+            "properties": {
+                "name": "Larvik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/larvik",
+                "altitude": "45",
+                "SYNOP Station Identifier": "30000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "otta",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5352,
+                    61.7712
+                ]
+            },
+            "properties": {
+                "name": "Otta",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/otta",
+                "altitude": "287",
+                "SYNOP Station Identifier": "16040"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sarpsborg",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1097,
+                    59.2838
+                ]
+            },
+            "properties": {
+                "name": "Sarpsborg",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sarpsborg",
+                "altitude": "49",
+                "SYNOP Station Identifier": "3190"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sandvika",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.53,
+                    59.89
+                ]
+            },
+            "properties": {
+                "name": "Sandvika",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sandvika",
+                "altitude": "5",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "assendelftbtp",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.7258,
+                    52.4819
+                ]
+            },
+            "properties": {
+                "name": "Assendelft BTP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/assendelftbtp",
+                "altitude": "-1.6",
+                "SYNOP Station Identifier": "06233"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "marollegat",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.1925,
+                    51.4786
+                ]
+            },
+            "properties": {
+                "name": "MAROLLEGAT",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/marollegat",
+                "altitude": "0",
+                "SYNOP Station Identifier": "06331"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sunndalsora",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5632,
+                    62.6752
+                ]
+            },
+            "properties": {
+                "name": "Sunndalsøra",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sunndalsora",
+                "altitude": "15",
+                "SYNOP Station Identifier": "63420"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "uvdal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7527,
+                    60.2695
+                ]
+            },
+            "properties": {
+                "name": "Uvdal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/uvdal",
+                "altitude": "500",
+                "SYNOP Station Identifier": "29350"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "l9ff1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9603,
+                    53.6144
+                ]
+            },
+            "properties": {
+                "name": "L9-FF-1",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/l9ff1",
+                "altitude": "45.31",
+                "SYNOP Station Identifier": "06207"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "f3fb1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.6961,
+                    54.8539
+                ]
+            },
+            "properties": {
+                "name": "F3-FB-1",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/f3fb1",
+                "altitude": "50.6",
+                "SYNOP Station Identifier": "06239"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kautokeino",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.041,
+                    69.0123
+                ]
+            },
+            "properties": {
+                "name": "Kautokeino",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kautokeino",
+                "altitude": "319",
+                "SYNOP Station Identifier": "93700"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lillehammer",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4662,
+                    61.115
+                ]
+            },
+            "properties": {
+                "name": "Lillehammer",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lillehammer",
+                "altitude": "199",
+                "SYNOP Station Identifier": "12680"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hoogeveenaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.5731,
+                    52.7489
+                ]
+            },
+            "properties": {
+                "name": "HOOGEVEEN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hoogeveenaws",
+                "altitude": "15.82",
+                "SYNOP Station Identifier": "06279"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ellaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.7625,
+                    51.1967
+                ]
+            },
+            "properties": {
+                "name": "ELL AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ellaws",
+                "altitude": "30",
+                "SYNOP Station Identifier": "06377"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "stavorenaws",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3833,
+                    52.8967
+                ]
+            },
+            "properties": {
+                "name": "STAVOREN AWS",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/stavorenaws",
+                "altitude": "-1.3",
+                "SYNOP Station Identifier": "06267"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ytteroyane",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.6805,
+                    61.5713
+                ]
+            },
+            "properties": {
+                "name": "Ytterøyane",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/ytteroyane",
+                "altitude": "26",
+                "SYNOP Station Identifier": "57770"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oslo",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.72,
+                    59.9422
+                ]
+            },
+            "properties": {
+                "name": "Oslo",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oslo",
+                "altitude": "94",
+                "SYNOP Station Identifier": "18700"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "lisboa",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.4665,
+                    38.7167
+                ]
+            },
+            "properties": {
+                "name": "Lisboa",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/lisboa",
+                "altitude": "45",
+                "SYNOP Station Identifier": "857900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "alicante",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.1852,
+                    38.3452
+                ]
+            },
+            "properties": {
+                "name": "Alicante",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/alicante",
+                "altitude": "18",
+                "SYNOP Station Identifier": "836000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gallivarre",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.6527,
+                    67.1338
+                ]
+            },
+            "properties": {
+                "name": "Gallivarre",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gallivarre",
+                "altitude": "363",
+                "SYNOP Station Identifier": "204900"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "murmansk",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.0923,
+                    68.9792
+                ]
+            },
+            "properties": {
+                "name": "Murmansk",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/murmansk",
+                "altitude": "96",
+                "SYNOP Station Identifier": "2211300"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nesbyen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1027,
+                    60.568
+                ]
+            },
+            "properties": {
+                "name": "Nesbyen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nesbyen",
+                "altitude": "167",
+                "SYNOP Station Identifier": "24890"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sauda",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.354,
+                    59.6505
+                ]
+            },
+            "properties": {
+                "name": "Sauda",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sauda",
+                "altitude": "8",
+                "SYNOP Station Identifier": "46610"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "istanbul",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.9497,
+                    41.0137
+                ]
+            },
+            "properties": {
+                "name": "Istanbul",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/istanbul",
+                "altitude": "39",
+                "SYNOP Station Identifier": "1706000"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "son",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.6858,
+                    59.523
+                ]
+            },
+            "properties": {
+                "name": "Son",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/son",
+                "altitude": "9",
+                "SYNOP Station Identifier": "17550"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "oppdal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6912,
+                    62.5942
+                ]
+            },
+            "properties": {
+                "name": "Oppdal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/oppdal",
+                "altitude": "545",
+                "SYNOP Station Identifier": "63705"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "berlin",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4103,
+                    52.5243
+                ]
+            },
+            "properties": {
+                "name": "Berlin",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/berlin",
+                "altitude": "74",
+                "SYNOP Station Identifier": "1038400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "moskva",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.6155,
+                    55.7522
+                ]
+            },
+            "properties": {
+                "name": "Moskva",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/moskva",
+                "altitude": "144",
+                "SYNOP Station Identifier": "2761200"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "snasa",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3817,
+                    64.2455
+                ]
+            },
+            "properties": {
+                "name": "Snåsa",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/snasa",
+                "altitude": "74",
+                "SYNOP Station Identifier": "70850"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "jevnaker",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.3997,
+                    60.25
+                ]
+            },
+            "properties": {
+                "name": "Jevnaker",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/jevnaker",
+                "altitude": "130",
+                "SYNOP Station Identifier": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dekooyvk",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.7811,
+                    52.9269
+                ]
+            },
+            "properties": {
+                "name": "DE KOOY VK",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/dekooyvk",
+                "altitude": "0.57",
+                "SYNOP Station Identifier": "06235"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kristiansund",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.728,
+                    63.1105
+                ]
+            },
+            "properties": {
+                "name": "Kristiansund",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kristiansund",
+                "altitude": "16",
+                "SYNOP Station Identifier": "64330"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gardermoen",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0802,
+                    60.2065
+                ]
+            },
+            "properties": {
+                "name": "Gardermoen",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gardermoen",
+                "altitude": "202",
+                "SYNOP Station Identifier": "4780"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "fagernes",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.2322,
+                    60.9858
+                ]
+            },
+            "properties": {
+                "name": "Fagernes",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/fagernes",
+                "altitude": "360",
+                "SYNOP Station Identifier": "23420"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "arnes",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.47,
+                    60.1223
+                ]
+            },
+            "properties": {
+                "name": "Årnes",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/arnes",
+                "altitude": "127",
+                "SYNOP Station Identifier": "4945"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hitra",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1125,
+                    63.5187
+                ]
+            },
+            "properties": {
+                "name": "Hitra",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/hitra",
+                "altitude": "13",
+                "SYNOP Station Identifier": "65451"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nittedal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.8648,
+                    60.0582
+                ]
+            },
+            "properties": {
+                "name": "Nittedal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/nittedal",
+                "altitude": "235",
+                "SYNOP Station Identifier": "4400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "molde",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.159,
+                    62.7373
+                ]
+            },
+            "properties": {
+                "name": "Molde",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/molde",
+                "altitude": "4",
+                "SYNOP Station Identifier": "62270"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gjovik",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.6915,
+                    60.7957
+                ]
+            },
+            "properties": {
+                "name": "Gjøvik",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/gjovik",
+                "altitude": "129",
+                "SYNOP Station Identifier": "12550"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "andalsnes",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.687,
+                    62.5675
+                ]
+            },
+            "properties": {
+                "name": "Åndalsnes",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/andalsnes",
+                "altitude": "2",
+                "SYNOP Station Identifier": "61340"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "helsingfors",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.9353,
+                    60.1693
+                ]
+            },
+            "properties": {
+                "name": "Helsingfors",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/helsingfors",
+                "altitude": "26",
+                "SYNOP Station Identifier": "297400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "drobak",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.6297,
+                    59.6632
+                ]
+            },
+            "properties": {
+                "name": "Drøbak",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/drobak",
+                "altitude": "14",
+                "SYNOP Station Identifier": "17730"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "haukeliseter",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1942,
+                    59.8237
+                ]
+            },
+            "properties": {
+                "name": "Haukeliseter",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/haukeliseter",
+                "altitude": "1000",
+                "SYNOP Station Identifier": "33951"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "grong",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3158,
+                    64.4645
+                ]
+            },
+            "properties": {
+                "name": "Grong",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/grong",
+                "altitude": "31",
+                "SYNOP Station Identifier": "73090"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rysstad",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5358,
+                    59.0933
+                ]
+            },
+            "properties": {
+                "name": "Rysstad",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/rysstad",
+                "altitude": "253",
+                "SYNOP Station Identifier": "40005"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bgohvs2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.0417,
+                    54.0369
+                ]
+            },
+            "properties": {
+                "name": "BG-OHVS2",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/bgohvs2",
+                "altitude": "43.56",
+                "SYNOP Station Identifier": "06214"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "maastrichtaachenap",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.7619,
+                    50.9053
+                ]
+            },
+            "properties": {
+                "name": "MAASTRICHT AACHEN AP",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/maastrichtaachenap",
+                "altitude": "112.72",
+                "SYNOP Station Identifier": "06380"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vadso",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.7315,
+                    70.0802
+                ]
+            },
+            "properties": {
+                "name": "Vadsø",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/vadso",
+                "altitude": "6",
+                "SYNOP Station Identifier": "98790"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "moi",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.5517,
+                    58.4567
+                ]
+            },
+            "properties": {
+                "name": "Moi",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/moi",
+                "altitude": "52",
+                "SYNOP Station Identifier": "43010"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "orsta-volda",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.0807,
+                    62.1808
+                ]
+            },
+            "properties": {
+                "name": "Ørsta-Volda",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/orsta-volda",
+                "altitude": "74",
+                "SYNOP Station Identifier": "59680"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "volkel",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.7067,
+                    51.6586
+                ]
+            },
+            "properties": {
+                "name": "VOLKEL",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/volkel",
+                "altitude": "19.85",
+                "SYNOP Station Identifier": "06375"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kiruna",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.225,
+                    67.8557
+                ]
+            },
+            "properties": {
+                "name": "Kiruna",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/kiruna",
+                "altitude": "579",
+                "SYNOP Station Identifier": "204400"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "pajala",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.366,
+                    67.2127
+                ]
+            },
+            "properties": {
+                "name": "Pajala",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/pajala",
+                "altitude": "173",
+                "SYNOP Station Identifier": "209500"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "fokstua",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.2767,
+                    62.1187
+                ]
+            },
+            "properties": {
+                "name": "Fokstua",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/fokstua",
+                "altitude": "951",
+                "SYNOP Station Identifier": "16610"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "roros",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3842,
+                    62.5747
+                ]
+            },
+            "properties": {
+                "name": "Røros",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/roros",
+                "altitude": "620",
+                "SYNOP Station Identifier": "10380"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "storslett",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0243,
+                    69.7682
+                ]
+            },
+            "properties": {
+                "name": "Storslett",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/storslett",
+                "altitude": "2",
+                "SYNOP Station Identifier": "91740"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "fagerstrand",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.594,
+                    59.7373
+                ]
+            },
+            "properties": {
+                "name": "Fagerstrand",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/fagerstrand",
+                "altitude": "41",
+                "SYNOP Station Identifier": "17775"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sigdal-nedreeggedal",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6352,
+                    60.0433
+                ]
+            },
+            "properties": {
+                "name": "Sigdal-Nedre Eggedal",
+                "href": "https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-27T06:00Z/locations/sigdal-nedreeggedal",
+                "altitude": "111",
+                "SYNOP Station Identifier": "0"
+            }
+        }
+    ]
+}
