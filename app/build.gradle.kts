@@ -14,6 +14,10 @@ plugins {
     id("com.google.devtools.ksp")
 }
 
+base {
+    archivesName = "paralax"
+}
+
 android {
     namespace = "com.dual_shock.paralax"
     compileSdk {
@@ -26,6 +30,7 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         ndk {

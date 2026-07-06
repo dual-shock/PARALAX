@@ -15,6 +15,8 @@
 local.properties
 .idea
 .idea/
+.claude
+.claude/
 *.jks
 *.keystore
 *.log
