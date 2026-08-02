@@ -43,10 +43,13 @@ object ForecastMapper {
             val range = (max - min) / 2.0
             return (1.0 - (abs(value - mid) / range)).coerceIn(0.0, 1.0)
         }
+        println("keyframes at score time: ${settings.keyframes.size}")
 
         val directionScore = atmosphericLayer?.let { layers ->
             calculateDirectionalScore(layers, settings.keyframes)
         } ?: 0.5
+        println("keyframes at score time: ${settings.keyframes.size}")
+
 
         val altWindScore     = scoreMax(altWindSpeed,                        settings.maxWindSpeedAltitude)
         val shearScore       = scoreMax(maxShear,                            settings.maxShearWind)
@@ -73,11 +76,12 @@ object ForecastMapper {
             "Cloud lo"   to cloudLowScore,
             "Temp"       to temperatureScore,
             "Prs"        to pressureScore,
+            "Wind dir"   to directionScore
         )
 
         val score = ((
                 // Wind direction is the most important factor at 30%
-                directionScore   * 0.30 +
+                        directionScore   * 0.30 +
 
                         // Wind speeds matter less
                         groundWindScore  * 0.10 +  // 10% for ground wind speed

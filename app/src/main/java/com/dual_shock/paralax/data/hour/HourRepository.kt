@@ -35,13 +35,14 @@ import kotlin.math.abs
 
 private const val TAG = "HourRepository"
 
-class HourRepository(
+class HourRepository (
     private val locationForecastRepo: LocationForecastRepository,
     private val interpolRepo: InterpolRepository,
     private val gribRepo: GribRepository,
     private val settingsRepo: SettingsRepository,
     private val frostRepo: FrostRepository,
-    private val context: Context
+    private val context: Context,
+    private val externalScope: CoroutineScope
 ) {
     private val scope = CoroutineScope(Dispatchers.IO)
     private val watchedHoursStore: DataStore<List<WatchedHour>> = context.watchedHoursDataStore
@@ -106,9 +107,12 @@ class HourRepository(
         } catch (e: Exception) {
             Log.e(TAG, "Failed to fetch interpol data", e)
         }
-
         recomputeAllScores()
         runChangeDetection(site.id)
+
+        externalScope.launch {
+            preloadAllAtmosphericLayers()
+        }
 
         try {
             val strikes = frostRepo.getRecentLightningStrikes(lat = site.lat, lon = site.lon, hoursBack = 2)
@@ -209,6 +213,35 @@ class HourRepository(
         )
 
         return hourData.copy(viabilityScore = result.score ?: 0, specifics = result.specifics ?: emptyList())
+    }
+
+    suspend fun preloadAllAtmosphericLayers() {
+        val site = currentSite ?: return
+        val distinctSlots = _hours.value.map { it.gribSlotTimestamp }.distinct()
+
+        for (gribSlot in distinctSlots) {
+            val alreadyLoaded = _hours.value.any { it.gribSlotTimestamp == gribSlot && it.atmosphericLayers != null }
+            if (alreadyLoaded) continue
+
+            try {
+                val gribLayers = withContext(Dispatchers.IO) {
+                    gribRepo.initializeForTimeIfNeeded(gribSlot)
+                    gribRepo.getAtmosphericProfile(site.lat, site.lon)
+                }
+                if (gribLayers.isEmpty()) continue
+
+                _hours.value = _hours.value.map { h ->
+                    if (h.gribSlotTimestamp == gribSlot && h.interpolUnits?.isNotEmpty() == true) {
+                        val atmosphericLayers = AtmosphericLayerMapper.mappingBasedonHpa(h.interpolUnits, gribLayers)
+                        val shearLayers = AtmosphericLayerMapper.shearBetweenLayers(atmosphericLayers)
+                        h.copy(atmosphericLayers = atmosphericLayers, shearLayers = shearLayers)
+                    } else h
+                }
+                recomputeAllScores()
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to preload GRIB for slot $gribSlot", e)
+            }
+        }
     }
 
     suspend fun selectHour(utcTimestamp: String) {

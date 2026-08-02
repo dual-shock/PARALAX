@@ -588,7 +588,6 @@ private fun MiniCompass(degrees: Float, sizeDp: androidx.compose.ui.unit.Dp) {
     }
 }
 
-/** Draggable compass dial — drag or tap anywhere on the ring to set the bearing. */
 @Composable
 private fun CompassDial(
     degrees: Float,
