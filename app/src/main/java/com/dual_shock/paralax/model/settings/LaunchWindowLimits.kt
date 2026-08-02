@@ -18,5 +18,12 @@ data class LaunchWindowLimits(
     val minTemperature: Double = -10.0,         // unchanged, not in table
     val maxTemperature: Double = 35.0,          // unchanged, not in table
     val maxAltitude: Double = 5000.0,          // m - Default without permit from Luftfartstilsynet it was 10000
-    val dangerZoneRadiusM: Double = 500.0      // meters - danger zone radius around landing point
+    val dangerZoneRadiusM: Double = 500.0,     // meters - danger zone radius around landing point
+    val keyframes : List<WindKeyframe> = emptyList()
+)
+@Serializable
+data class WindKeyframe(
+    val altitudeKm: Float,
+    val preferredDeg: Float, // 0..360, compass bearing
+    val weight: Float        // 0..10
 )

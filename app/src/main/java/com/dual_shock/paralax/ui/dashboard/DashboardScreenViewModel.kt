@@ -48,6 +48,7 @@ data class DashboardUIState(
 
     val selectedHour: HourData? get() =
         selectedTimestamp?.let { ts -> hours.find { it.utcTimestamp == ts } }
+            .also { hour -> Log.d("HourData", "selectedHour atmosphericLayers: ${hour?.atmosphericLayers}") }
 
     val upcomingHours: List<HourData> get() =
         hours.sortedBy { it.utcTimestamp }

@@ -203,6 +203,7 @@ class HourRepository(
         val result = ForecastMapper.calculatePercentage(
             forecast,
             hourData.altWindSpeed,
+            hourData.atmosphericLayers,
             hourData.maxShear,
             settings
         )

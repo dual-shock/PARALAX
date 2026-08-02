@@ -1,7 +1,9 @@
 package com.dual_shock.paralax.ui.dashboard
 
+import com.dual_shock.paralax.model.grib.AtmosphericLayer
 import com.dual_shock.paralax.model.locationforecast.ForecastEntry
 import com.dual_shock.paralax.model.settings.LaunchWindowLimits
+import com.dual_shock.paralax.ui.dashboard.WindDirectionScorer.calculateDirectionalScore
 import kotlin.math.abs
 import kotlin.math.roundToInt
 
@@ -13,6 +15,7 @@ object ForecastMapper {
     fun calculatePercentage(
         entry: ForecastEntry,
         altWindSpeed: Double?,
+        atmosphericLayer: List<Layer>?,
         maxShear: Double?,
         settings: LaunchWindowLimits
     ): ViabilityResult {
@@ -41,6 +44,10 @@ object ForecastMapper {
             return (1.0 - (abs(value - mid) / range)).coerceIn(0.0, 1.0)
         }
 
+        val directionScore = atmosphericLayer?.let { layers ->
+            calculateDirectionalScore(layers, settings.keyframes)
+        } ?: 0.5
+
         val altWindScore     = scoreMax(altWindSpeed,                        settings.maxWindSpeedAltitude)
         val shearScore       = scoreMax(maxShear,                            settings.maxShearWind)
         val dewPointScore    = scoreMax(entry.dew_point_temperature,         settings.maxDewPoint)
@@ -52,42 +59,45 @@ object ForecastMapper {
         val humidityScore    = scoreMax(entry.relative_humidity,             settings.maxHumidity)
         val temperatureScore = scoreMinMax(entry.air_temperature,            settings.minTemperature, settings.maxTemperature)
         val pressureScore    = scoreMin(entry.air_pressure_at_sea_level,     settings.minAirPressure, 1050.0)
+
         val specifics = listOf(
-            "Wind Lo"  to groundWindScore,
-                "Fog"      to fogScore,
-            "Wind Hi"     to altWindScore,
-                "Hum"     to humidityScore,
+            "Direction"  to directionScore,
+            "Wind Lo"    to groundWindScore,
+            "Wind Hi"    to altWindScore,
             "Wind Shr"   to shearScore,
-                "Dew Point"    to dewPointScore,
+            "Fog"        to fogScore,
+            "Hum"        to humidityScore,
+            "Dew Point"  to dewPointScore,
             "Cloud hi"   to cloudHighScore,
-                "Temp"  to temperatureScore,
-            "Cloud me"    to cloudMedScore,
-                "Prs"     to pressureScore,
-            "Cloud lo"    to cloudLowScore,
-
-
-
-
-
+            "Cloud me"   to cloudMedScore,
+            "Cloud lo"   to cloudLowScore,
+            "Temp"       to temperatureScore,
+            "Prs"        to pressureScore,
         )
 
         val score = ((
-                groundWindScore  * 0.20 +
-                        altWindScore     * 0.15 +
-                        shearScore       * 0.15 +
-                        cloudHighScore   * 0.08 +
-                        cloudMedScore    * 0.07 +
-                        cloudLowScore    * 0.05 +
-                        fogScore         * 0.10 +
+                // Wind direction is the most important factor at 30%
+                directionScore   * 0.30 +
+
+                        // Wind speeds matter less
+                        groundWindScore  * 0.10 +  // 10% for ground wind speed
+                        altWindScore     * 0.10 +  // 10% for altitude wind speed
+                        shearScore       * 0.08 +  //  8% for wind shear
+
+                        // Other weather factors share the remaining 42%
+                        cloudHighScore   * 0.07 +
+                        cloudMedScore    * 0.06 +
+                        cloudLowScore    * 0.04 +
+                        fogScore         * 0.09 +
                         humidityScore    * 0.05 +
-                        dewPointScore    * 0.05 +
-                        temperatureScore * 0.05 +
-                        pressureScore    * 0.05
+                        dewPointScore    * 0.04 +
+                        temperatureScore * 0.04 +
+                        pressureScore    * 0.03
+                // Total = 100%
                 ) * 100.0).roundToInt()
 
         return ViabilityResult(score, specifics)
-
-           }
+    }
 }
 
 
